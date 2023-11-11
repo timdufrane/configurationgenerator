@@ -12,7 +12,7 @@ thirdoctet:
   - 31
 
 # Example run
-go build
+go mod tidy && go build
 configurationgenerator.exe -c thirdoctetconfiguration.txt -s thirdoctettemplate.yml -d thirdoctetout
 
 # Example results

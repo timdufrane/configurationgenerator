@@ -1,4 +1,4 @@
-module github.com/timdufrane/configgenerator
+module github.com/timdufrane/configurationgenerator
 
 go 1.20
 

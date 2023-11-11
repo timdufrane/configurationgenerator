@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/timdufrane/configgenerator/pkg/config"
+	"github.com/timdufrane/configurationgenerator/pkg/config"
 	"fmt"
 	"io/ioutil"
 	"log"
