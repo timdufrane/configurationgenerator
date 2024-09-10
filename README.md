@@ -5,11 +5,11 @@ Simple configuration generator based on YAML templating. This is dirt simple cod
 ip address 192.168.{{thirdoctet}}.5/24
 
 # Example YAML template
-thirdoctet:
-  - 28
-  - 29
-  - 30
-  - 31
+    thirdoctet:
+      - 28
+      - 29
+      - 30
+      - 31
 
 # Example run
 go mod tidy && go build
